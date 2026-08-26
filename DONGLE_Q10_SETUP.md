@@ -2,7 +2,11 @@
 
 This configuration allows the SOFLE DONGLE to act as a central device and connect to the ZitaoTech Q10 keyboard as a split peripheral.
 
-## Setup
+## ⚠️ Important: Local Compilation Required
+
+**GitHub Actions CI cannot build this project** because `sofle_dongle` and `zitaotech_q10` are custom board definitions not in ZMK's official board registry. You **must compile locally** using the commands below.
+
+## Setup - Local Compilation
 
 ### Building for DONGLE (Central)
 The dongle is already configured as a central in the default configuration.
