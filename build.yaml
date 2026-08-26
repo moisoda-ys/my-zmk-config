@@ -2,7 +2,9 @@ include:
   - board: zitaotech_q10
     shield: settings_reset
     cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  
+  - board: zitaotech_q10_peripheral
+    shield: settings_reset
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_PERIPHERAL=y
   
   
   
