@@ -1,0 +1,5 @@
+board:
+  name: zitaotech_q10
+  vendor: zitaotech
+  socs:
+    - name: nrf52840
