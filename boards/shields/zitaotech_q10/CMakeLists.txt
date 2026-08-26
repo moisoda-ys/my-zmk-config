@@ -1,4 +1,4 @@
-if(CONFIG_BOARD_ZITAOTECH_Q10 OR CONFIG_BOARD_ZITAOTECH_Q10_PERIPHERAL)
+if(CONFIG_BOARD_ZITAOTECH_Q10)
 zephyr_library()
 zephyr_library_sources(custom_driver/keyboard_backlight.c)
 zephyr_library_sources(custom_driver/trackpad_led.c)
