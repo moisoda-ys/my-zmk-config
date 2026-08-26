@@ -1,0 +1,174 @@
+layout: {zmk_keyboard: zitaotech_q10}
+layers:
+  default:
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - CLCK
+  - LGUI
+  - '&mkp LCLK'
+  - {t: BACK, h: ESC}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - BSPC
+  - {t: LSHFT, h: sticky}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - {t: ;, h: $}
+  - ENTER
+  - {t: LCTRL, h: LCTRL}
+  - LALT
+  - SPACE
+  - {t: sym, h: toggle}
+  - {t: upper, h: toggle}
+  sym:
+  - VOL UP
+  - VOL DN
+  - PSCRN
+  - AC SEARCH
+  - '&mkp LCLK'
+  - F5
+  - F12
+  - '#'
+  - '1'
+  - '2'
+  - '3'
+  - {t: (, h: '['}
+  - {t: ), h: ']'}
+  - _
+  - '-'
+  - +
+  - '@'
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - /
+  - ':'
+  - ;
+  - ''''
+  - '"'
+  - DEL
+  - LSHFT
+  - '7'
+  - '8'
+  - '9'
+  - '?'
+  - '!'
+  - ','
+  - .
+  - '&tdc_to_MEDIA'
+  - ENTER
+  - LCTRL
+  - '0'
+  - SPACE
+  - {t: default, h: toggle}
+  - {t: upper, h: toggle}
+  upper:
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - '&td0'
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - UP
+  - ''
+  - '&sys_reset'
+  - EP TOG
+  - ''
+  - <
+  - '>'
+  - '|'
+  - KP EQUAL
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - \
+  - '&'
+  - '{'
+  - '}'
+  - ^
+  - BSPC
+  - LSHFT
+  - ''
+  - ''
+  - RGB BRD
+  - '&bl BL_DEC'
+  - RGB TOG
+  - '&bl BL_INC'
+  - RGB BRI
+  - '&td_boot_out'
+  - ENTER
+  - LCTRL
+  - LALT
+  - SPACE
+  - {t: sym, h: toggle}
+  - {t: default, h: toggle}
+  media:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: default, h: toggle}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: default, h: toggle}
+  - {t: default, h: toggle}
