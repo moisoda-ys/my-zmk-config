@@ -6,4 +6,6 @@ board:
     - name: nrf52840
   variants:
     - name: sofle_dongle_left
+      qualifier: nrf52840
     - name: sofle_dongle_right
+      qualifier: nrf52840
