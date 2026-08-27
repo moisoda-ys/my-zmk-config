@@ -1,0 +1,9 @@
+board:
+  name: sofle_dongle
+  full_name: Sofle Dongle
+  vendor: zitaotech
+  socs:
+    - name: nrf52840
+  variants:
+    - name: sofle_dongle_left
+    - name: sofle_dongle_right
