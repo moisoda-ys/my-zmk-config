@@ -2,18 +2,17 @@
 # SPDX-License-Identifier: MIT
 
 config BOARD_SOFLE_DONGLE
-    bool "sofle dongle"
-    depends on SOC_NRF52840_QIAA
+	bool
+	depends on SOC_NRF52840_QIAA
 
 config BOARD_SOFLE_DONGLE_LEFT
-    bool "sofle dongle left"
-    depends on SOC_NRF52840_QIAA
+	bool
+	depends on SOC_NRF52840_QIAA
 
 config BOARD_SOFLE_DONGLE_RIGHT
-    bool "sofle dongle right"
-    depends on SOC_NRF52840_QIAA
+	bool
+	depends on SOC_NRF52840_QIAA
 
-menu "A320 Trackpad Setting"
 
 config A320_TRACKPAD_SCROLL_INTERVAL
     int "Trackpad scroll in miliseconds"
