@@ -1,0 +1,4 @@
+name: zmk-config
+build:
+  cmake: .
+  kconfig: .
