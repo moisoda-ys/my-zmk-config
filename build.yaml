@@ -1,4 +1,2 @@
-include: []
-# NOTE: This project uses custom board definitions (sofle_dongle, zitaotech_q10)
-# that are not part of ZMK's official boards. GitHub Actions CI cannot build them.
-# See DONGLE_Q10_SETUP.md for local compilation instructions.
+include:
+  - board: sofle_dongle
